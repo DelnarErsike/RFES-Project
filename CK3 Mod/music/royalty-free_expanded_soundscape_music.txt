@@ -1,0 +1,304 @@
+﻿
+# ERE tracks
+
+rfes_mood_anastasima_euloghtaria = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Anastasima_Euloghtaria.ogg"
+	weight = 9
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_orthodox_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_marturisiti-va_domnului = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Marturisiti-va_Domnului.ogg"
+	weight = 19
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_orthodox_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_psalms_1_2_3 = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Psalms_1,2,3.ogg"
+	weight = 13
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_orthodox_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_i_kecharitomeni_chaire = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/I_Kecharitomeni_Chaire.ogg"
+	weight = 5
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_orthodox_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+# West/Central African Tracks
+
+rfes_mood_bamaya = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Bamaya.ogg"
+	weight = 14
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:yoruba_group
+	#		culture_group = culture_group:akan_group
+	#		culture = culture:bobo
+	#		culture = culture:gur
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+# Tuvan/Mongolia Tracks
+
+rfes_mood_buura = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Buura.ogg"
+	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:mongolic_group
+	#		culture = culture:uriankhai
+	#		culture = culture:ongud
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_chyraa_khoor = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Chyraa_Khoor.ogg"
+	weight = 15
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:mongolic_group
+	#		culture = culture:uriankhai
+	#		culture = culture:ongud
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_dyngyldai = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Dyngyldai.ogg"
+	weight = 18
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:mongolic_group
+	#		culture = culture:uriankhai
+	#		culture = culture:ongud
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_kongurri = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Kongurri.ogg"
+	weight = 15
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:mongolic_group
+	#		culture = culture:uriankhai
+	#		culture = culture:ongud
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_yrlaazhyly = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Yrlaazhyly.ogg"
+	weight = 14
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:mongolic_group
+	#		culture = culture:uriankhai
+	#		culture = culture:ongud
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+# Indian Tracks
+
+rfes_mood_haratanaya_sree = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Haratanaya_Sree.ogg"
+	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:indo_aryan_group
+	#		culture_group = culture_group:dravidian_group
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+# Middle Eastern Tracks
+
+rfes_mood_fidayda = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Fidayda.ogg"
+	weight = 18
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:arabic_group
+	#		culture_group = culture_group:iranian_group
+	#		culture = culture:turkish
+	#		culture = culture:karluk
+	#		culture = culture:kipchak
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_gushe_cheman = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Gushe_Cheman.ogg"
+	weight = 14
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:arabic_group
+	#		culture_group = culture_group:iranian_group
+	#		culture = culture:turkish
+	#		culture = culture:karluk
+	#		culture = culture:kipchak
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_harman_dali = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/-Harman_dali.ogg"
+	weight = 17
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = { culture = culture:turkish }
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_lesgi = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Lesgi.ogg"
+	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:arabic_group
+	#		culture_group = culture_group:iranian_group
+	#		culture = culture:turkish
+	#		culture = culture:karluk
+	#		culture = culture:kipchak
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_rampi_rampi = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/-Rampi_Rampi.ogg"
+	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = { culture = culture:turkish }
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_shab_ayum = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/-Shab_Ayum.ogg"
+	weight = 13
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:arabic_group
+	#		culture_group = culture_group:iranian_group
+	#		culture = culture:turkish
+	#		culture = culture:karluk
+	#		culture = culture:kipchak
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_sheydaii = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/-Sheydaii.ogg"
+	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:arabic_group
+	#		culture_group = culture_group:iranian_group
+	#		culture = culture:turkish
+	#		culture = culture:karluk
+	#		culture = culture:kipchak
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
