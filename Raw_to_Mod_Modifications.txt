@@ -1,0 +1,2 @@
+CK3 Mod:
+	- All .ogg file volumes for mood music reduced so that their largest peak is at -12.0 dB. This is roughly the volume of the loudest parts of vanilla CK3's mood tracks.
