@@ -88,23 +88,6 @@ rfes_mood_psalms_1_2_3 = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_i_kecharitomeni_chaire = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/I_Kecharitomeni_Chaire.ogg"
-	weight = 5
-	# Uncomment once mood tracks can be controlled/triggered based on the player character
-	#modifier = {
-	#	NOT = {
-	#		faiths_are_in_orthodox_christianity_group = {
-	#			FAITH_1 = root
-	#			FAITH_2 = root
-	#		}
-	#	}
-	#	factor = 0
-	#}
-	mood = yes
-	can_be_interrupted = yes
-}
-
 rfes_mood_hymns_of_saint_leonides_17_2 = {
 	music = "file:/sound/royalty-free_expanded_soundscape_music/Hymns_of_Saint_Leonides_Vol17_02.ogg"
 	weight = 9
