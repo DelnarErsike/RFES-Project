@@ -54,9 +54,43 @@ rfes_mood_anastasima_euloghtaria = {
 	can_be_interrupted = yes
 }
 
+rfes_mood_axion_esti_os_alithos_makarizein = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Axion_Esti_Os_Alithos_Makarizein.ogg"
+	weight = 19
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_orthodox_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 rfes_mood_marturisiti-va_domnului = {
 	music = "file:/sound/royalty-free_expanded_soundscape_music/Marturisiti-va_Domnului.ogg"
-	weight = 19
+	weight = 18
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_orthodox_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_o_lord_the_mother_of_the_sons = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/O_Lord,_the_mother_of_the_sons.ogg"
+	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOT = {
