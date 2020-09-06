@@ -1,6 +1,23 @@
 ﻿
 # Western European tracks
 
+rfes_mood_istampita_ghaetta = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Istampita_Ghaetta.ogg"
+	weight = 15
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_western_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 rfes_mood_quant_ce_vendra = {
 	music = "file:/sound/royalty-free_expanded_soundscape_music/Quant_ce_vendra.ogg"
 	weight = 14
@@ -28,6 +45,72 @@ rfes_mood_ogni_belta_madonna = {
 	#			FAITH_1 = root
 	#			FAITH_2 = root
 	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_se_la_face_ay_pale = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Se_La_Face_Ay_Pale.ogg"
+	weight = 18
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_western_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_trotto = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Trotto.ogg"
+	weight = 19
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		faiths_are_in_western_christianity_group = {
+	#			FAITH_1 = root
+	#			FAITH_2 = root
+	#		}
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+# Celtic tracks
+
+rfes_mood_slainte_medley = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Jig_of_Slurs_Dublin_Reel_-_Merry_Blacksmith_The_Mountain_Road.ogg"
+	weight = 15
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:goidelic_group
+	#		culture_group = culture_group:brythonic_group
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_lea_rig_dusty_window = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Lea_rig_-_Dusty_window.ogg"
+	weight = 15
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:goidelic_group
+	#		culture_group = culture_group:brythonic_group
 	#	}
 	#	factor = 0
 	#}
@@ -224,6 +307,22 @@ rfes_mood_kongurri = {
 	can_be_interrupted = yes
 }
 
+rfes_mood_samagaldai = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Samagaldai.ogg"
+	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:mongolic_group
+	#		culture = culture:uriankhai
+	#		culture = culture:ongud
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 rfes_mood_yrlaazhyly = {
 	music = "file:/sound/royalty-free_expanded_soundscape_music/Yrlaazhyly.ogg"
 	weight = 14
@@ -245,6 +344,36 @@ rfes_mood_yrlaazhyly = {
 rfes_mood_haratanaya_sree = {
 	music = "file:/sound/royalty-free_expanded_soundscape_music/Haratanaya_Sree.ogg"
 	weight = 16
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:indo_aryan_group
+	#		culture_group = culture_group:dravidian_group
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_mahadeva_sankarabharanam = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Mahadeva_(Sankarabharanam).ogg"
+	weight = 10
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:indo_aryan_group
+	#		culture_group = culture_group:dravidian_group
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfes_mood_unnaiye_nambinen_hindolam = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/Unnaiye_Nambinen_(Hindolam).ogg"
+	weight = 11
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
