@@ -6,7 +6,7 @@ In its current version, the mod musical tracks from the following backgrounds:
 
 - 5 songs from the regions of France, Italy, Flanders, Germany, and Western Europe in general.
 - 2 songs from Ireland.
-- 6 Orthodox chants in Ecclesiastical Greek, fit for the Eastern Roman (Byzantine) Empire.
+- 5 Orthodox chants in Ecclesiastical Greek and 1 in Romanian, fit for the Eastern Roman (Byzantine) Empire.
 - 1 song of a style from modern-day Ghana.
 - 5 songs from the region of Tuva, in modern-day Russia near modern-day Mongolia.
 - 3 songs from India, out of which 1 is of a style from around Gujarat and 2 are of a style from around Tamil Nadu.
