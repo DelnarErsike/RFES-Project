@@ -8,7 +8,9 @@ The Royalty-Free Historical Music Mod is a mod that adds extra royalty-free, gam
 
 ### Royalty-Free Historical Music Mod (CK3)
 ParadoxPlaza: https://forum.paradoxplaza.com/forum/threads/mod-royalty-free-historical-music-mod.1420732/
+
 Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2223625878
+
 Paradox Mods: https://mods.paradoxplaza.com/mods/12026/Any
 
 ## Copyright, Licensing, & Other Legal Stuff
