@@ -1,8 +1,8 @@
 ﻿
 # Western European tracks
 
-rfes_mood_istampita_ghaetta = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Istampita_Ghaetta.ogg"
+rfhmm_mood_istampita_ghaetta = {
+	music = "file:/sound/rfhmm_music/Istampita_Ghaetta.ogg"
 	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -18,8 +18,8 @@ rfes_mood_istampita_ghaetta = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_quant_ce_vendra = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Quant_ce_vendra.ogg"
+rfhmm_mood_quant_ce_vendra = {
+	music = "file:/sound/rfhmm_music/Quant_ce_vendra.ogg"
 	weight = 14
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -35,8 +35,8 @@ rfes_mood_quant_ce_vendra = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_ogni_belta_madonna = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Ogni_Belta_Madonna.ogg"
+rfhmm_mood_ogni_belta_madonna = {
+	music = "file:/sound/rfhmm_music/Ogni_Belta_Madonna.ogg"
 	weight = 18
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -52,8 +52,8 @@ rfes_mood_ogni_belta_madonna = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_se_la_face_ay_pale = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Se_La_Face_Ay_Pale.ogg"
+rfhmm_mood_se_la_face_ay_pale = {
+	music = "file:/sound/rfhmm_music/Se_La_Face_Ay_Pale.ogg"
 	weight = 18
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -69,8 +69,8 @@ rfes_mood_se_la_face_ay_pale = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_trotto = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Trotto.ogg"
+rfhmm_mood_trotto = {
+	music = "file:/sound/rfhmm_music/Trotto.ogg"
 	weight = 19
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -88,8 +88,8 @@ rfes_mood_trotto = {
 
 # Celtic tracks
 
-rfes_mood_slainte_medley = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Jig_of_Slurs_Dublin_Reel_-_Merry_Blacksmith_The_Mountain_Road.ogg"
+rfhmm_mood_slainte_medley = {
+	music = "file:/sound/rfhmm_music/Jig_of_Slurs_Dublin_Reel_-_Merry_Blacksmith_The_Mountain_Road.ogg"
 	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -103,8 +103,8 @@ rfes_mood_slainte_medley = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_lea_rig_dusty_window = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Lea_rig_-_Dusty_window.ogg"
+rfhmm_mood_lea_rig_dusty_window = {
+	music = "file:/sound/rfhmm_music/Lea_rig_-_Dusty_window.ogg"
 	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -120,8 +120,8 @@ rfes_mood_lea_rig_dusty_window = {
 
 # ERE tracks
 
-rfes_mood_anastasima_euloghtaria = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Anastasima_Euloghtaria.ogg"
+rfhmm_mood_anastasima_euloghtaria = {
+	music = "file:/sound/rfhmm_music/Anastasima_Euloghtaria.ogg"
 	weight = 9
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -137,8 +137,8 @@ rfes_mood_anastasima_euloghtaria = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_axion_esti_os_alithos_makarizein = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Axion_Esti_Os_Alithos_Makarizein.ogg"
+rfhmm_mood_axion_esti_os_alithos_makarizein = {
+	music = "file:/sound/rfhmm_music/Axion_Esti_Os_Alithos_Makarizein.ogg"
 	weight = 19
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -154,8 +154,8 @@ rfes_mood_axion_esti_os_alithos_makarizein = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_marturisiti-va_domnului = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Marturisiti-va_Domnului.ogg"
+rfhmm_mood_marturisiti-va_domnului = {
+	music = "file:/sound/rfhmm_music/Marturisiti-va_Domnului.ogg"
 	weight = 18
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -171,8 +171,8 @@ rfes_mood_marturisiti-va_domnului = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_o_lord_the_mother_of_the_sons = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/O_Lord,_the_mother_of_the_sons.ogg"
+rfhmm_mood_o_lord_the_mother_of_the_sons = {
+	music = "file:/sound/rfhmm_music/O_Lord,_the_mother_of_the_sons.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -188,8 +188,8 @@ rfes_mood_o_lord_the_mother_of_the_sons = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_psalms_1_2_3 = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Psalms_1,2,3.ogg"
+rfhmm_mood_psalms_1_2_3 = {
+	music = "file:/sound/rfhmm_music/Psalms_1,2,3.ogg"
 	weight = 13
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -205,8 +205,8 @@ rfes_mood_psalms_1_2_3 = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_hymns_of_saint_leonides_17_2 = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Hymns_of_Saint_Leonides_Vol17_02.ogg"
+rfhmm_mood_hymns_of_saint_leonides_17_2 = {
+	music = "file:/sound/rfhmm_music/Hymns_of_Saint_Leonides_Vol17_02.ogg"
 	weight = 9
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -224,8 +224,8 @@ rfes_mood_hymns_of_saint_leonides_17_2 = {
 
 # West/Central African Tracks
 
-rfes_mood_bamaya = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Bamaya.ogg"
+rfhmm_mood_bamaya = {
+	music = "file:/sound/rfhmm_music/Bamaya.ogg"
 	weight = 14
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -243,8 +243,8 @@ rfes_mood_bamaya = {
 
 # Tuvan/Mongolia Tracks
 
-rfes_mood_buura = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Buura.ogg"
+rfhmm_mood_buura = {
+	music = "file:/sound/rfhmm_music/Buura.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -259,8 +259,8 @@ rfes_mood_buura = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_chyraa_khoor = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Chyraa_Khoor.ogg"
+rfhmm_mood_chyraa_khoor = {
+	music = "file:/sound/rfhmm_music/Chyraa_Khoor.ogg"
 	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -275,8 +275,8 @@ rfes_mood_chyraa_khoor = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_dyngyldai = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Dyngyldai.ogg"
+rfhmm_mood_dyngyldai = {
+	music = "file:/sound/rfhmm_music/Dyngyldai.ogg"
 	weight = 18
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -291,8 +291,8 @@ rfes_mood_dyngyldai = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_kongurri = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Kongurri.ogg"
+rfhmm_mood_kongurri = {
+	music = "file:/sound/rfhmm_music/Kongurri.ogg"
 	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -307,8 +307,8 @@ rfes_mood_kongurri = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_samagaldai = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Samagaldai.ogg"
+rfhmm_mood_samagaldai = {
+	music = "file:/sound/rfhmm_music/Samagaldai.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -323,8 +323,8 @@ rfes_mood_samagaldai = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_yrlaazhyly = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Yrlaazhyly.ogg"
+rfhmm_mood_yrlaazhyly = {
+	music = "file:/sound/rfhmm_music/Yrlaazhyly.ogg"
 	weight = 14
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -341,8 +341,8 @@ rfes_mood_yrlaazhyly = {
 
 # Indian Tracks
 
-rfes_mood_haratanaya_sree = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Haratanaya_Sree.ogg"
+rfhmm_mood_haratanaya_sree = {
+	music = "file:/sound/rfhmm_music/Haratanaya_Sree.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -356,8 +356,8 @@ rfes_mood_haratanaya_sree = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_mahadeva_sankarabharanam = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Mahadeva_(Sankarabharanam).ogg"
+rfhmm_mood_mahadeva_sankarabharanam = {
+	music = "file:/sound/rfhmm_music/Mahadeva_(Sankarabharanam).ogg"
 	weight = 10
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -371,8 +371,8 @@ rfes_mood_mahadeva_sankarabharanam = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_unnaiye_nambinen_hindolam = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Unnaiye_Nambinen_(Hindolam).ogg"
+rfhmm_mood_unnaiye_nambinen_hindolam = {
+	music = "file:/sound/rfhmm_music/Unnaiye_Nambinen_(Hindolam).ogg"
 	weight = 11
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -388,8 +388,8 @@ rfes_mood_unnaiye_nambinen_hindolam = {
 
 # North African Tracks
 
-rfes_mood_amazigh_festival_2 = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/AmazighFestival_02.ogg"
+rfhmm_mood_amazigh_festival_2 = {
+	music = "file:/sound/rfhmm_music/AmazighFestival_02.ogg"
 	weight = 11
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -405,8 +405,8 @@ rfes_mood_amazigh_festival_2 = {
 
 # Middle Eastern Tracks
 
-rfes_mood_fidayda = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Fidayda.ogg"
+rfhmm_mood_fidayda = {
+	music = "file:/sound/rfhmm_music/Fidayda.ogg"
 	weight = 18
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -429,8 +429,8 @@ rfes_mood_fidayda = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_gushe_cheman = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Gushe_Cheman.ogg"
+rfhmm_mood_gushe_cheman = {
+	music = "file:/sound/rfhmm_music/Gushe_Cheman.ogg"
 	weight = 14
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -453,8 +453,8 @@ rfes_mood_gushe_cheman = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_harman_dali = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/-Harman_dali.ogg"
+rfhmm_mood_harman_dali = {
+	music = "file:/sound/rfhmm_music/-Harman_dali.ogg"
 	weight = 17
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -465,8 +465,8 @@ rfes_mood_harman_dali = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_lesgi = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/Lesgi.ogg"
+rfhmm_mood_lesgi = {
+	music = "file:/sound/rfhmm_music/Lesgi.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -489,8 +489,8 @@ rfes_mood_lesgi = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_rampi_rampi = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/-Rampi_Rampi.ogg"
+rfhmm_mood_rampi_rampi = {
+	music = "file:/sound/rfhmm_music/-Rampi_Rampi.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -501,8 +501,8 @@ rfes_mood_rampi_rampi = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_shab_ayum = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/-Shab_Ayum.ogg"
+rfhmm_mood_shab_ayum = {
+	music = "file:/sound/rfhmm_music/-Shab_Ayum.ogg"
 	weight = 13
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
@@ -525,8 +525,8 @@ rfes_mood_shab_ayum = {
 	can_be_interrupted = yes
 }
 
-rfes_mood_sheydaii = {
-	music = "file:/sound/royalty-free_expanded_soundscape_music/-Sheydaii.ogg"
+rfhmm_mood_sheydaii = {
+	music = "file:/sound/rfhmm_music/-Sheydaii.ogg"
 	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
