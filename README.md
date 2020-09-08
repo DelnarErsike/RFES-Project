@@ -4,6 +4,13 @@ This is the repository for the Royalty-Free Historical Music Mod for the Crusade
 
 The Royalty-Free Historical Music Mod is a mod that adds extra royalty-free, game-appropriate music to the Crusader Kings series of games.
 
+## Links
+
+### Royalty-Free Historical Music Mod (CK3)
+ParadoxPlaza: https://forum.paradoxplaza.com/forum/threads/mod-royalty-free-historical-music-mod.1420732/
+Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2223625878
+Paradox Mods: https://mods.paradoxplaza.com/mods/12026/Any
+
 ## Copyright, Licensing, & Other Legal Stuff
 
 Special care is taken to make sure that all audio included in the project is royalty-free for sharing/redistribution. This should mean that playing with the mods that are part of this project should result in no takedown requests, copyright strikes, or similar licensing disputes on services like YouTube and Twitch. If you do end up encountering such things merely from gameplay footage playing music from this mod, please let me know as soon as possible, preferably through the Issues page, so that I may remove the mislicensed file from the project to prevent further harm.
