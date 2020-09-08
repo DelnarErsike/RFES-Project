@@ -422,7 +422,7 @@ rfhmm_mood_gushe_cheman = {
 
 rfhmm_mood_harman_dali = {
 	music = "file:/sound/rfhmm_music/-Harman_dali.ogg"
-	weight = 17
+	weight = 16
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOT = { culture = culture:turkish }
@@ -434,7 +434,7 @@ rfhmm_mood_harman_dali = {
 
 rfhmm_mood_lesgi = {
 	music = "file:/sound/rfhmm_music/Lesgi.ogg"
-	weight = 16
+	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
@@ -458,7 +458,7 @@ rfhmm_mood_lesgi = {
 
 rfhmm_mood_rampi_rampi = {
 	music = "file:/sound/rfhmm_music/-Rampi_Rampi.ogg"
-	weight = 16
+	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOT = { culture = culture:turkish }
@@ -494,7 +494,7 @@ rfhmm_mood_shab_ayum = {
 
 rfhmm_mood_sheydaii = {
 	music = "file:/sound/rfhmm_music/-Sheydaii.ogg"
-	weight = 16
+	weight = 15
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
