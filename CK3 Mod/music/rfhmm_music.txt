@@ -243,22 +243,6 @@ rfhmm_mood_bamaya = {
 
 # Tuvan/Mongolia Tracks
 
-rfhmm_mood_buura = {
-	music = "file:/sound/rfhmm_music/Buura.ogg"
-	weight = 16
-	# Uncomment once mood tracks can be controlled/triggered based on the player character
-	#modifier = {
-	#	NOR = {
-	#		culture_group = culture_group:mongolic_group
-	#		culture = culture:uriankhai
-	#		culture = culture:ongud
-	#	}
-	#	factor = 0
-	#}
-	mood = yes
-	can_be_interrupted = yes
-}
-
 rfhmm_mood_chyraa_khoor = {
 	music = "file:/sound/rfhmm_music/Chyraa_Khoor.ogg"
 	weight = 15
