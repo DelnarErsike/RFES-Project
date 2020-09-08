@@ -1,4 +1,4 @@
-The Royalty-Free Historical Music Mod adds 29 different, historically appropriate music tracks to Crusader Kings III, all of which are royalty-free and appropriately licensed. This means that not only is this mod ironman-compatible, but it is also safe for use in footage in YouTube, Twitch, and other online video platforms.
+The Royalty-Free Historical Music Mod adds 29 different, historically appropriate music tracks to Crusader Kings III, all of which are royalty-free and appropriately licensed. This means that not only is this mod Ironman-compatible, but it is also safe for use in footage in YouTube, Twitch, and other online video platforms.
 
 In addition to being royalty-free, all the tracks in this mod are real performances of actual, real songs that are either from this timeperiod or are of a style that has not changed since. None of those fake-sounding, "cinematic" tracks here, everything is authentic: from duet studio performances of songs written by 15th century Flemish composers to Deccan temple dance songs dedicated to various Hindu deities, from Tuvans throat-singing traditional folk songs to Orthodox chants sung by the choir of the Vatopaidi monastery on Mt. Athos in Greece.
 
@@ -16,7 +16,7 @@ A full track list can be found in the LICENSE file inside the folder containing 
 
 Unfortunately, unlike Crusader Kings II, Crusader Kings III does not currently let people restrict background music to only play under certain circumstances, so be prepared to hear Tuvan throat singing while playing in France and Orthodox chants while playing in India. I, too, would like to be able to tailor the songs to the current state of the game, but until Paradox Interactive adds more advanced music controls to their modding support, this is what we are stuck with.
 
-Again, this mod is 100% ironman-compatible, and also should be 100% safe for services like YouTube and Twitch. If you get demonetized or muted or receive a takedown request as a result of one of the tracks in this mod, please let me know so that I can have a look and remove the offending track from this mod ASAP.
+Again, this mod is 100% Ironman-compatible, and also should be 100% safe for services like YouTube and Twitch. If you get demonetized or muted or receive a takedown request as a result of one of the tracks in this mod, please let me know so that I can have a look and remove the offending track from this mod ASAP.
 
 ---------
 
