@@ -370,23 +370,6 @@ rfhmm_mood_unnaiye_nambinen_hindolam = {
 	can_be_interrupted = yes
 }
 
-# North African Tracks
-
-rfhmm_mood_amazigh_festival_2 = {
-	music = "file:/sound/rfhmm_music/AmazighFestival_02.ogg"
-	weight = 11
-	# Uncomment once mood tracks can be controlled/triggered based on the player character
-	#modifier = {
-	#	NOR = {
-	#		culture_group = culture_group:berber_group
-	#		culture = culture:maghrebi
-	#	}
-	#	factor = 0
-	#}
-	mood = yes
-	can_be_interrupted = yes
-}
-
 # Middle Eastern Tracks
 
 rfhmm_mood_fidayda = {
