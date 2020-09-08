@@ -386,6 +386,23 @@ rfes_mood_unnaiye_nambinen_hindolam = {
 	can_be_interrupted = yes
 }
 
+# North African Tracks
+
+rfes_mood_amazigh_festival_2 = {
+	music = "file:/sound/royalty-free_expanded_soundscape_music/AmazighFestival_02.ogg"
+	weight = 11
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:berber_group
+	#		culture = culture:maghrebi
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 # Middle Eastern Tracks
 
 rfes_mood_fidayda = {
@@ -394,8 +411,14 @@ rfes_mood_fidayda = {
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
-	#		culture_group = culture_group:arabic_group
 	#		culture_group = culture_group:iranian_group
+	#		AND = {
+	#			culture_group = culture_group:arabic_group
+	#			NOR = {
+	#				culture = culture:maghrebi
+	#				culture = culture:andalusian
+	#			}
+	#		}
 	#		culture = culture:turkish
 	#		culture = culture:karluk
 	#		culture = culture:kipchak
@@ -412,8 +435,14 @@ rfes_mood_gushe_cheman = {
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
-	#		culture_group = culture_group:arabic_group
 	#		culture_group = culture_group:iranian_group
+	#		AND = {
+	#			culture_group = culture_group:arabic_group
+	#			NOR = {
+	#				culture = culture:maghrebi
+	#				culture = culture:andalusian
+	#			}
+	#		}
 	#		culture = culture:turkish
 	#		culture = culture:karluk
 	#		culture = culture:kipchak
@@ -442,8 +471,14 @@ rfes_mood_lesgi = {
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
-	#		culture_group = culture_group:arabic_group
 	#		culture_group = culture_group:iranian_group
+	#		AND = {
+	#			culture_group = culture_group:arabic_group
+	#			NOR = {
+	#				culture = culture:maghrebi
+	#				culture = culture:andalusian
+	#			}
+	#		}
 	#		culture = culture:turkish
 	#		culture = culture:karluk
 	#		culture = culture:kipchak
@@ -472,8 +507,14 @@ rfes_mood_shab_ayum = {
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
-	#		culture_group = culture_group:arabic_group
 	#		culture_group = culture_group:iranian_group
+	#		AND = {
+	#			culture_group = culture_group:arabic_group
+	#			NOR = {
+	#				culture = culture:maghrebi
+	#				culture = culture:andalusian
+	#			}
+	#		}
 	#		culture = culture:turkish
 	#		culture = culture:karluk
 	#		culture = culture:kipchak
@@ -490,8 +531,14 @@ rfes_mood_sheydaii = {
 	# Uncomment once mood tracks can be controlled/triggered based on the player character
 	#modifier = {
 	#	NOR = {
-	#		culture_group = culture_group:arabic_group
 	#		culture_group = culture_group:iranian_group
+	#		AND = {
+	#			culture_group = culture_group:arabic_group
+	#			NOR = {
+	#				culture = culture:maghrebi
+	#				culture = culture:andalusian
+	#			}
+	#		}
 	#		culture = culture:turkish
 	#		culture = culture:karluk
 	#		culture = culture:kipchak
