@@ -222,6 +222,22 @@ rfhmm_mood_hymns_of_saint_leonides_17_2 = {
 	can_be_interrupted = yes
 }
 
+# Caucasian Tracks
+
+rfhmm_mood_irinola = {
+	music = "file:/sound/rfhmm_music/Irinola.ogg"
+	weight = 14
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOT = {
+	#		culture = culture:georgian
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 # West/Central African Tracks
 
 rfhmm_mood_bamaya = {
