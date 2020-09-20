@@ -386,6 +386,21 @@ rfhmm_mood_unnaiye_nambinen_hindolam = {
 	can_be_interrupted = yes
 }
 
+rfhmm_mood_jaya_mangala_gatha = {
+	music = "file:/sound/rfhmm_music/Jaya_Mangala_Gatha.ogg"
+	weight = 11
+	# Uncomment once mood tracks can be controlled/triggered based on the player character
+	#modifier = {
+	#	NOR = {
+	#		culture_group = culture_group:indo_aryan_group
+	#		culture_group = culture_group:dravidian_group
+	#	}
+	#	factor = 0
+	#}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 # Middle Eastern Tracks
 
 rfhmm_mood_fidayda = {
