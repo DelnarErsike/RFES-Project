@@ -21,4 +21,6 @@ Again, this mod is 100% Ironman-compatible, and also should be 100% safe for ser
 
 ---------
 
+ParadoxPlaza link: https://forum.paradoxplaza.com/forum/threads/mod-royalty-free-historical-music-mod.1420732/.
+
 Do you wish to contribute to this mod in some way? Go to the Royalty-Free Enhanced Soundscape project's GitHub page here and follow the instructions for submissions: https://github.com/DelnarErsike/RFES-Project.
