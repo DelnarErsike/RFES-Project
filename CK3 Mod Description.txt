@@ -1,0 +1,26 @@
+The Royalty-Free Historical Music Mod adds 31 different, historically appropriate music tracks to Crusader Kings III, all of which are royalty-free and appropriately licensed. This means that not only is this mod Ironman-compatible, but it is also safe for use in footage in YouTube, Twitch, and other online video platforms.
+
+In addition to being royalty-free, all the tracks in this mod are real performances of actual, real songs that are either from this timeperiod or are of a style that has not changed since. None of those fake-sounding, "cinematic" tracks here, everything is authentic: from duet studio performances of songs written by 15th century Flemish composers to Deccan temple dance songs dedicated to various Hindu deities, from Tuvans throat-singing traditional folk songs to Orthodox chants sung by the choir of the Vatopaidi monastery on Mt. Athos in Greece.
+
+In its current version, the mod musical tracks from the following backgrounds:
+
+- 5 songs from the regions of France, Italy, Flanders, Germany, and Western Europe in general.
+- 2 songs from Ireland.
+- 1 song from Georgia (the country).
+- 5 Orthodox chants in Ecclesiastical Greek and 1 in Romanian, fit for the Eastern Roman (Byzantine) Empire.
+- 1 song of a style from modern-day Ghana.
+- 5 songs from the region of Tuva, in modern-day Russia near modern-day Mongolia.
+- 4 songs from India, out of which 2 are of Northern Indian styles and 2 are of Southern Indian styles.
+- 7 songs from the Middle East, out of which 2 are from modern-day Turkey specifically and the rest are from places in and around modern-day Turkey, Iran, Iraq, Syria, Uzbekistan, and Afghanistan.
+
+Thanks to additions in 1.3, each song will only play in contexts where they make sense.
+
+A full track list can be found in the LICENSE file inside the folder containing this mod's music, as well as full licensing information for every song and sources where you can double-check that the licensing information is correct.
+
+Again, this mod is 100% Ironman-compatible, and also should be 100% safe for services like YouTube and Twitch. If you get demonetized or muted or receive a takedown request as a result of one of the tracks in this mod, please let me know so that I can have a look and remove the offending track from this mod ASAP.
+
+---------
+
+ParadoxPlaza link: https://forum.paradoxplaza.com/forum/threads/mod-royalty-free-historical-music-mod.1420732/.
+
+Do you wish to contribute to this mod in some way? Go to the Royalty-Free Enhanced Soundscape project's GitHub page here and follow the instructions for submissions: https://github.com/DelnarErsike/RFES-Project.

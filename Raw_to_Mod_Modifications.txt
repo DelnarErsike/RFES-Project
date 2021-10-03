@@ -1,0 +1,2 @@
+CK3 Mod:
+	- All volumes for mood music reduced so that their most common peaks are at -18.0 dB. Usually, this means normalizing to -18.0 dB, but sometimes the track has a few big peaks, so normalizing to -15.0 dB achieves this effect for those. This is roughly the volume of the loudest parts of vanilla CK3's mood tracks.
