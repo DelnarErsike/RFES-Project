@@ -1,26 +1,6 @@
 ﻿
 # Western European tracks
 
-rfhmm_mood_istampita_ghaetta = {
-	music = "file:/sound/rfhmm_music/Istampita_Ghaetta.ogg"
-	weight = 15
-	is_valid = {
-		OR = {
-			culture_group = culture_group:central_germanic_group
-			culture_group = culture_group:frankish_group
-			culture_group = culture_group:latin_group
-			culture_group = culture_group:west_germanic_group
-			faith = faith:catholic
-			faith = faith:cathar
-			faith = faith:waldensian
-			faith = faith:lollard
-			faith = faith:insular_celtic
-		}
-	}
-	mood = yes
-	can_be_interrupted = yes
-}
-
 rfhmm_mood_quant_ce_vendra = {
 	music = "file:/sound/rfhmm_music/Quant_ce_vendra.ogg"
 	weight = 14
@@ -64,26 +44,6 @@ rfhmm_mood_ogni_belta_madonna = {
 rfhmm_mood_se_la_face_ay_pale = {
 	music = "file:/sound/rfhmm_music/Se_La_Face_Ay_Pale.ogg"
 	weight = 18
-	is_valid = {
-		OR = {
-			culture_group = culture_group:central_germanic_group
-			culture_group = culture_group:frankish_group
-			culture_group = culture_group:latin_group
-			culture_group = culture_group:west_germanic_group
-			faith = faith:catholic
-			faith = faith:cathar
-			faith = faith:waldensian
-			faith = faith:lollard
-			faith = faith:insular_celtic
-		}
-	}
-	mood = yes
-	can_be_interrupted = yes
-}
-
-rfhmm_mood_trotto = {
-	music = "file:/sound/rfhmm_music/Trotto.ogg"
-	weight = 19
 	is_valid = {
 		OR = {
 			culture_group = culture_group:central_germanic_group
