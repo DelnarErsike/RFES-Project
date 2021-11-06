@@ -61,6 +61,26 @@ rfhmm_mood_se_la_face_ay_pale = {
 	can_be_interrupted = yes
 }
 
+rfhmm_mood_veni_creator_spiritus = {
+	music = "file:/sound/rfhmm_music/Veni_Creator_Spiritus.ogg"
+	weight = 14
+	is_valid = {
+		OR = {
+			culture_group = culture_group:central_germanic_group
+			culture_group = culture_group:frankish_group
+			culture_group = culture_group:latin_group
+			culture_group = culture_group:west_germanic_group
+			faith = faith:catholic
+			faith = faith:cathar
+			faith = faith:waldensian
+			faith = faith:lollard
+			faith = faith:insular_celtic
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 # Celtic tracks
 
 rfhmm_mood_slainte_medley = {
@@ -187,6 +207,68 @@ rfhmm_mood_marturisiti-va_domnului = {
 rfhmm_mood_o_lord_the_mother_of_the_sons = {
 	music = "file:/sound/rfhmm_music/O_Lord,_the_mother_of_the_sons.ogg"
 	weight = 16
+	is_valid = {
+		OR = {
+			faith = faith:orthodox
+			faith = faith:iconoclast
+			faith = faith:bogomilist
+			faith = faith:paulician
+			faith = faith:bosnian_church
+			AND = {
+				religion = religion:christianity_religion
+				NOR = {
+					faith = faith:catholic
+					faith = faith:cathar
+					faith = faith:waldensian
+					faith = faith:lollard
+					faith = faith:insular_celtic
+				}
+				OR = {
+					culture_group = culture_group:east_slavic_group
+					culture_group = culture_group:south_slavic_group
+					culture_group = culture_group:byzantine_group
+				}
+			}
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_o_lord_as_thou_camest_to_thy_passion = {
+	music = "file:/sound/rfhmm_music/O_Lord_as_Thou_camest_to_Thy_Passion.ogg"
+	weight = 16
+	is_valid = {
+		OR = {
+			faith = faith:orthodox
+			faith = faith:iconoclast
+			faith = faith:bogomilist
+			faith = faith:paulician
+			faith = faith:bosnian_church
+			AND = {
+				religion = religion:christianity_religion
+				NOR = {
+					faith = faith:catholic
+					faith = faith:cathar
+					faith = faith:waldensian
+					faith = faith:lollard
+					faith = faith:insular_celtic
+				}
+				OR = {
+					culture_group = culture_group:east_slavic_group
+					culture_group = culture_group:south_slavic_group
+					culture_group = culture_group:byzantine_group
+				}
+			}
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_psalm_33 = {
+	music = "file:/sound/rfhmm_music/Psalm_33.ogg"
+	weight = 13
 	is_valid = {
 		OR = {
 			faith = faith:orthodox

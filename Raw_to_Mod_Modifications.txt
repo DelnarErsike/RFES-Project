@@ -6,5 +6,5 @@ CK3 Mod:
 		- Applied a High-Pass Filter at 500 Hz with a 6 dB octave falloff.
 		- Added ca. 5 seconds of reverb-powered fade-out to the end, because the track ends 9 seconds before it's actually supposed to.
 		- Reduced track tempo by 5%.
-	Hymns of Saint Leonides:
+	Hymns of Saint Leonides, Veni Creator Spiritus, Psalm 33, Oh Lord as Thou camest to Thy Passion:
 		- Added a Pseudo-Stereo effect (the tracks were recorded in mono, but redistributed in stereo).
