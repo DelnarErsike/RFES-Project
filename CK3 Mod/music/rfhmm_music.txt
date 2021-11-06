@@ -563,3 +563,91 @@ rfhmm_mood_sheydaii = {
 	mood = yes
 	can_be_interrupted = yes
 }
+
+rfhmm_mood_mosaic = {
+	music = "file:/sound/rfhmm_music/Mosaic.ogg"
+	weight = 15
+	is_valid = {
+		OR = {
+			culture_group = culture_group:iranian_group
+			AND = {
+				culture_group = culture_group:arabic_group
+				NOR = {
+					culture = culture:maghrebi
+					culture = culture:andalusian
+				}
+			}
+			culture = culture:turkish
+			culture = culture:karluk
+			culture = culture:kipchak
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_sandstorm = {
+	music = "file:/sound/rfhmm_music/Sandstorm.ogg"
+	weight = 15
+	is_valid = {
+		OR = {
+			culture_group = culture_group:iranian_group
+			AND = {
+				culture_group = culture_group:arabic_group
+				NOR = {
+					culture = culture:maghrebi
+					culture = culture:andalusian
+				}
+			}
+			culture = culture:turkish
+			culture = culture:karluk
+			culture = culture:kipchak
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_supplication = {
+	music = "file:/sound/rfhmm_music/Supplication.ogg"
+	weight = 15
+	is_valid = {
+		OR = {
+			culture_group = culture_group:iranian_group
+			AND = {
+				culture_group = culture_group:arabic_group
+				NOR = {
+					culture = culture:maghrebi
+					culture = culture:andalusian
+				}
+			}
+			culture = culture:turkish
+			culture = culture:karluk
+			culture = culture:kipchak
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_tabasum = {
+	music = "file:/sound/rfhmm_music/Tabasum.ogg"
+	weight = 15
+	is_valid = {
+		OR = {
+			culture_group = culture_group:iranian_group
+			AND = {
+				culture_group = culture_group:arabic_group
+				NOR = {
+					culture = culture:maghrebi
+					culture = culture:andalusian
+				}
+			}
+			culture = culture:turkish
+			culture = culture:karluk
+			culture = culture:kipchak
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
