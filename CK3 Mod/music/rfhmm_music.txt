@@ -277,6 +277,99 @@ rfhmm_mood_hymns_of_saint_leonides_17_2 = {
 	can_be_interrupted = yes
 }
 
+rfhmm_mood_hymns_of_saint_leonides_17_3 = {
+	music = "file:/sound/rfhmm_music/Hymns_of_Saint_Leonides_Vol17_03.ogg"
+	weight = 9
+	is_valid = {
+		OR = {
+			faith = faith:orthodox
+			faith = faith:iconoclast
+			faith = faith:bogomilist
+			faith = faith:paulician
+			faith = faith:bosnian_church
+			AND = {
+				religion = religion:christianity_religion
+				NOR = {
+					faith = faith:catholic
+					faith = faith:cathar
+					faith = faith:waldensian
+					faith = faith:lollard
+					faith = faith:insular_celtic
+				}
+				OR = {
+					culture_group = culture_group:east_slavic_group
+					culture_group = culture_group:south_slavic_group
+					culture_group = culture_group:byzantine_group
+				}
+			}
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_hymns_of_saint_leonides_17_5 = {
+	music = "file:/sound/rfhmm_music/Hymns_of_Saint_Leonides_Vol17_05.ogg"
+	weight = 9
+	is_valid = {
+		OR = {
+			faith = faith:orthodox
+			faith = faith:iconoclast
+			faith = faith:bogomilist
+			faith = faith:paulician
+			faith = faith:bosnian_church
+			AND = {
+				religion = religion:christianity_religion
+				NOR = {
+					faith = faith:catholic
+					faith = faith:cathar
+					faith = faith:waldensian
+					faith = faith:lollard
+					faith = faith:insular_celtic
+				}
+				OR = {
+					culture_group = culture_group:east_slavic_group
+					culture_group = culture_group:south_slavic_group
+					culture_group = culture_group:byzantine_group
+				}
+			}
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rfhmm_mood_hymns_of_saint_leonides_17_11 = {
+	music = "file:/sound/rfhmm_music/Hymns_of_Saint_Leonides_Vol17_11.ogg"
+	weight = 9
+	is_valid = {
+		OR = {
+			faith = faith:orthodox
+			faith = faith:iconoclast
+			faith = faith:bogomilist
+			faith = faith:paulician
+			faith = faith:bosnian_church
+			AND = {
+				religion = religion:christianity_religion
+				NOR = {
+					faith = faith:catholic
+					faith = faith:cathar
+					faith = faith:waldensian
+					faith = faith:lollard
+					faith = faith:insular_celtic
+				}
+				OR = {
+					culture_group = culture_group:east_slavic_group
+					culture_group = culture_group:south_slavic_group
+					culture_group = culture_group:byzantine_group
+				}
+			}
+		}
+	}
+	mood = yes
+	can_be_interrupted = yes
+}
+
 # Caucasian Tracks
 
 rfhmm_mood_irinola = {
