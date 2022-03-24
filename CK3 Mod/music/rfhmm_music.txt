@@ -1,4 +1,4 @@
-﻿
+
 # Western European tracks
 
 rfhmm_mood_quant_ce_vendra = {
@@ -6,10 +6,10 @@ rfhmm_mood_quant_ce_vendra = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture_group = culture_group:central_germanic_group
-			culture_group = culture_group:frankish_group
-			culture_group = culture_group:latin_group
-			culture_group = culture_group:west_germanic_group
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_frankish }
+			culture = { has_cultural_pillar = heritage_latin }
+			culture = { has_cultural_pillar = heritage_west_germanic }
 			faith = faith:catholic
 			faith = faith:cathar
 			faith = faith:waldensian
@@ -26,10 +26,10 @@ rfhmm_mood_ogni_belta_madonna = {
 	weight = 18
 	is_valid = {
 		OR = {
-			culture_group = culture_group:central_germanic_group
-			culture_group = culture_group:frankish_group
-			culture_group = culture_group:latin_group
-			culture_group = culture_group:west_germanic_group
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_frankish }
+			culture = { has_cultural_pillar = heritage_latin }
+			culture = { has_cultural_pillar = heritage_west_germanic }
 			faith = faith:catholic
 			faith = faith:cathar
 			faith = faith:waldensian
@@ -46,10 +46,10 @@ rfhmm_mood_se_la_face_ay_pale = {
 	weight = 18
 	is_valid = {
 		OR = {
-			culture_group = culture_group:central_germanic_group
-			culture_group = culture_group:frankish_group
-			culture_group = culture_group:latin_group
-			culture_group = culture_group:west_germanic_group
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_frankish }
+			culture = { has_cultural_pillar = heritage_latin }
+			culture = { has_cultural_pillar = heritage_west_germanic }
 			faith = faith:catholic
 			faith = faith:cathar
 			faith = faith:waldensian
@@ -66,10 +66,10 @@ rfhmm_mood_veni_creator_spiritus = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture_group = culture_group:central_germanic_group
-			culture_group = culture_group:frankish_group
-			culture_group = culture_group:latin_group
-			culture_group = culture_group:west_germanic_group
+			culture = { has_cultural_pillar = heritage_central_germanic }
+			culture = { has_cultural_pillar = heritage_frankish }
+			culture = { has_cultural_pillar = heritage_latin }
+			culture = { has_cultural_pillar = heritage_west_germanic }
 			faith = faith:catholic
 			faith = faith:cathar
 			faith = faith:waldensian
@@ -88,8 +88,8 @@ rfhmm_mood_slainte_medley = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:goidelic_group
-			culture_group = culture_group:brythonic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
+			culture = { has_cultural_pillar = heritage_brythonic }
 		}
 	}
 	mood = yes
@@ -101,8 +101,8 @@ rfhmm_mood_lea_rig_dusty_window = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:goidelic_group
-			culture_group = culture_group:brythonic_group
+			culture = { has_cultural_pillar = heritage_goidelic }
+			culture = { has_cultural_pillar = heritage_brythonic }
 		}
 	}
 	mood = yes
@@ -131,9 +131,9 @@ rfhmm_mood_anastasima_euloghtaria = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -162,9 +162,9 @@ rfhmm_mood_axion_esti_os_alithos_makarizein = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -193,9 +193,9 @@ rfhmm_mood_marturisiti-va_domnului = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -224,9 +224,9 @@ rfhmm_mood_o_lord_the_mother_of_the_sons = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -255,9 +255,9 @@ rfhmm_mood_o_lord_as_thou_camest_to_thy_passion = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -286,9 +286,9 @@ rfhmm_mood_psalm_33 = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -317,9 +317,9 @@ rfhmm_mood_psalms_1_2_3 = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -348,9 +348,9 @@ rfhmm_mood_hymns_of_saint_leonides_17_2 = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -379,9 +379,9 @@ rfhmm_mood_hymns_of_saint_leonides_17_3 = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -410,9 +410,9 @@ rfhmm_mood_hymns_of_saint_leonides_17_5 = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -441,9 +441,9 @@ rfhmm_mood_hymns_of_saint_leonides_17_11 = {
 					faith = faith:insular_celtic
 				}
 				OR = {
-					culture_group = culture_group:east_slavic_group
-					culture_group = culture_group:south_slavic_group
-					culture_group = culture_group:byzantine_group
+					culture = { has_cultural_pillar = heritage_east_slavic }
+					culture = { has_cultural_pillar = heritage_south_slavic }
+					culture = { has_cultural_pillar = heritage_byzantine }
 				}
 			}
 		}
@@ -471,8 +471,8 @@ rfhmm_mood_bamaya = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture_group = culture_group:yoruba_group
-			culture_group = culture_group:akan_group
+			culture = { has_cultural_pillar = heritage_yoruba }
+			culture = { has_cultural_pillar = heritage_akan }
 			culture = culture:bobo
 			culture = culture:gur
 		}
@@ -488,7 +488,7 @@ rfhmm_mood_chyraa_khoor = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 			culture = culture:uriankhai
 			culture = culture:ongud
 		}
@@ -502,7 +502,7 @@ rfhmm_mood_dyngyldai = {
 	weight = 18
 	is_valid = {
 		OR = {
-			culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 			culture = culture:uriankhai
 			culture = culture:ongud
 		}
@@ -516,7 +516,7 @@ rfhmm_mood_kongurri = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 			culture = culture:uriankhai
 			culture = culture:ongud
 		}
@@ -530,7 +530,7 @@ rfhmm_mood_samagaldai = {
 	weight = 16
 	is_valid = {
 		OR = {
-			culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 			culture = culture:uriankhai
 			culture = culture:ongud
 		}
@@ -544,7 +544,7 @@ rfhmm_mood_yrlaazhyly = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture_group = culture_group:mongolic_group
+			culture = { has_cultural_pillar = heritage_mongolic }
 			culture = culture:uriankhai
 			culture = culture:ongud
 		}
@@ -560,8 +560,8 @@ rfhmm_mood_haratanaya_sree = {
 	weight = 16
 	is_valid = {
 		OR = {
-			culture_group = culture_group:indo_aryan_group
-			culture_group = culture_group:dravidian_group
+			culture = { has_cultural_pillar = heritage_indo_aryan }
+			culture = { has_cultural_pillar = heritage_dravidian }
 		}
 	}
 	mood = yes
@@ -573,8 +573,8 @@ rfhmm_mood_mahadeva_sankarabharanam = {
 	weight = 10
 	is_valid = {
 		OR = {
-			culture_group = culture_group:indo_aryan_group
-			culture_group = culture_group:dravidian_group
+			culture = { has_cultural_pillar = heritage_indo_aryan }
+			culture = { has_cultural_pillar = heritage_dravidian }
 		}
 	}
 	mood = yes
@@ -586,8 +586,8 @@ rfhmm_mood_unnaiye_nambinen_hindolam = {
 	weight = 11
 	is_valid = {
 		OR = {
-			culture_group = culture_group:indo_aryan_group
-			culture_group = culture_group:dravidian_group
+			culture = { has_cultural_pillar = heritage_indo_aryan }
+			culture = { has_cultural_pillar = heritage_dravidian }
 		}
 	}
 	mood = yes
@@ -599,8 +599,8 @@ rfhmm_mood_jaya_mangala_gatha = {
 	weight = 11
 	is_valid = {
 		OR = {
-			culture_group = culture_group:indo_aryan_group
-			culture_group = culture_group:dravidian_group
+			culture = { has_cultural_pillar = heritage_indo_aryan }
+			culture = { has_cultural_pillar = heritage_dravidian }
 		}
 	}
 	mood = yes
@@ -614,9 +614,9 @@ rfhmm_mood_fidayda = {
 	weight = 18
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -636,9 +636,9 @@ rfhmm_mood_gushe_cheman = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -668,9 +668,9 @@ rfhmm_mood_lesgi = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -700,9 +700,9 @@ rfhmm_mood_shab_ayum = {
 	weight = 13
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -722,9 +722,9 @@ rfhmm_mood_sheydaii = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -744,9 +744,9 @@ rfhmm_mood_mosaic = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -766,9 +766,9 @@ rfhmm_mood_sandstorm = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -788,9 +788,9 @@ rfhmm_mood_supplication = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
@@ -810,9 +810,9 @@ rfhmm_mood_tabasum = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture_group = culture_group:iranian_group
+			culture = { has_cultural_pillar = heritage_iranian }
 			AND = {
-				culture_group = culture_group:arabic_group
+				culture = { has_cultural_pillar = heritage_arabic }
 				NOR = {
 					culture = culture:maghrebi
 					culture = culture:andalusian
