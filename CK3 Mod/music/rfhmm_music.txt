@@ -5,16 +5,15 @@ rfhmm_mood_quant_ce_vendra = {
 	music = "file:/sound/rfhmm_music/Quant_ce_vendra.ogg"
 	weight = 14
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_central_germanic }
-			culture = { has_cultural_pillar = heritage_frankish }
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_west_germanic }
-			faith = faith:catholic
-			faith = faith:cathar
-			faith = faith:waldensian
-			faith = faith:lollard
-			faith = faith:insular_celtic
+		culture = { 
+			OR = { 
+				has_cultural_pillar = heritage_central_germanic
+				has_cultural_pillar = heritage_frankish
+				has_cultural_pillar = heritage_latin
+				has_cultural_pillar = heritage_west_germanic
+				has_cultural_pillar = language_french
+				has_cultural_pillar = language_occitano_romance
+			}
 		}
 	}
 	mood = yes
@@ -25,16 +24,13 @@ rfhmm_mood_ogni_belta_madonna = {
 	music = "file:/sound/rfhmm_music/Ogni_Belta_Madonna.ogg"
 	weight = 18
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_central_germanic }
-			culture = { has_cultural_pillar = heritage_frankish }
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_west_germanic }
-			faith = faith:catholic
-			faith = faith:cathar
-			faith = faith:waldensian
-			faith = faith:lollard
-			faith = faith:insular_celtic
+		culture = { 
+			OR = { 
+				has_cultural_pillar = heritage_central_germanic
+				has_cultural_pillar = heritage_frankish
+				has_cultural_pillar = heritage_latin
+				has_cultural_pillar = language_italian
+			}
 		}
 	}
 	mood = yes
@@ -45,16 +41,15 @@ rfhmm_mood_se_la_face_ay_pale = {
 	music = "file:/sound/rfhmm_music/Se_La_Face_Ay_Pale.ogg"
 	weight = 18
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_central_germanic }
-			culture = { has_cultural_pillar = heritage_frankish }
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_west_germanic }
-			faith = faith:catholic
-			faith = faith:cathar
-			faith = faith:waldensian
-			faith = faith:lollard
-			faith = faith:insular_celtic
+		culture = { 
+			OR = { 
+				has_cultural_pillar = heritage_central_germanic
+				has_cultural_pillar = heritage_frankish
+				has_cultural_pillar = heritage_latin
+				has_cultural_pillar = heritage_west_germanic
+				has_cultural_pillar = language_french
+				has_cultural_pillar = language_occitano_romance
+			}
 		}
 	}
 	mood = yes
@@ -66,15 +61,29 @@ rfhmm_mood_veni_creator_spiritus = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_central_germanic }
-			culture = { has_cultural_pillar = heritage_frankish }
-			culture = { has_cultural_pillar = heritage_latin }
-			culture = { has_cultural_pillar = heritage_west_germanic }
 			faith = faith:catholic
 			faith = faith:cathar
 			faith = faith:waldensian
 			faith = faith:lollard
 			faith = faith:insular_celtic
+			AND = {
+				religion = religion:christianity_religion
+				NOR = {
+					faith = faith:orthodox
+					faith = faith:iconoclast
+					faith = faith:bogomilist
+					faith = faith:paulician
+					faith = faith:bosnian_church
+				}
+				culture = { 
+					OR = { 
+						has_cultural_pillar = heritage_central_germanic
+						has_cultural_pillar = heritage_frankish
+						has_cultural_pillar = heritage_latin
+						has_cultural_pillar = heritage_west_germanic
+					}
+				}
+			}
 		}
 	}
 	mood = yes
@@ -87,9 +96,11 @@ rfhmm_mood_slainte_medley = {
 	music = "file:/sound/rfhmm_music/Jig_of_Slurs_Dublin_Reel_-_Merry_Blacksmith_The_Mountain_Road.ogg"
 	weight = 15
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_goidelic }
-			culture = { has_cultural_pillar = heritage_brythonic }
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_goidelic
+				has_cultural_pillar = heritage_brythonic
+			}
 		}
 	}
 	mood = yes
@@ -100,9 +111,11 @@ rfhmm_mood_lea_rig_dusty_window = {
 	music = "file:/sound/rfhmm_music/Lea_rig_-_Dusty_window.ogg"
 	weight = 15
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_goidelic }
-			culture = { has_cultural_pillar = heritage_brythonic }
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_goidelic
+				has_cultural_pillar = heritage_brythonic
+			}
 		}
 	}
 	mood = yes
@@ -130,10 +143,15 @@ rfhmm_mood_anastasima_euloghtaria = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -161,10 +179,15 @@ rfhmm_mood_axion_esti_os_alithos_makarizein = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -177,6 +200,12 @@ rfhmm_mood_marturisiti-va_domnului = {
 	music = "file:/sound/rfhmm_music/Marturisiti-va_Domnului.ogg"
 	weight = 18
 	is_valid = {
+		culture = { 
+			OR = {
+				has_cultural_pillar = heritage_vlach
+				has_cultural_pillar = language_wallachian 
+			}
+		}
 		OR = {
 			faith = faith:orthodox
 			faith = faith:iconoclast
@@ -192,11 +221,7 @@ rfhmm_mood_marturisiti-va_domnului = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
-				}
+				culture = { has_cultural_pillar = language_wallachian }
 			}
 		}
 	}
@@ -223,10 +248,15 @@ rfhmm_mood_o_lord_the_mother_of_the_sons = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -254,10 +284,15 @@ rfhmm_mood_o_lord_as_thou_camest_to_thy_passion = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -285,10 +320,15 @@ rfhmm_mood_psalm_33 = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -316,10 +356,15 @@ rfhmm_mood_psalms_1_2_3 = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -347,10 +392,15 @@ rfhmm_mood_hymns_of_saint_leonides_17_2 = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -378,10 +428,15 @@ rfhmm_mood_hymns_of_saint_leonides_17_3 = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -409,10 +464,15 @@ rfhmm_mood_hymns_of_saint_leonides_17_5 = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -440,10 +500,15 @@ rfhmm_mood_hymns_of_saint_leonides_17_11 = {
 					faith = faith:lollard
 					faith = faith:insular_celtic
 				}
-				OR = {
-					culture = { has_cultural_pillar = heritage_east_slavic }
-					culture = { has_cultural_pillar = heritage_south_slavic }
-					culture = { has_cultural_pillar = heritage_byzantine }
+				culture = {
+					OR = {
+						has_cultural_pillar = language_east_slavic
+						has_cultural_pillar = language_south_slavic
+						has_cultural_pillar = language_slavonic
+						has_cultural_pillar = heritage_byzantine
+						has_cultural_pillar = language_greek
+						has_cultural_pillar = language_wallachian
+					}
 				}
 			}
 		}
@@ -458,7 +523,7 @@ rfhmm_mood_irinola = {
 	music = "file:/sound/rfhmm_music/Irinola.ogg"
 	weight = 14
 	is_valid = {
-		culture = culture:georgian
+		culture = { has_cultural_pillar = language_georgian }
 	}
 	mood = yes
 	can_be_interrupted = yes
@@ -471,10 +536,15 @@ rfhmm_mood_bamaya = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_yoruba }
-			culture = { has_cultural_pillar = heritage_akan }
+			culture = {
+				OR = {
+					has_cultural_pillar = language_yoruba
+					has_cultural_pillar = language_kwa
+					has_cultural_pillar = language_kru
+					has_cultural_pillar = language_gur
+				}
+			}
 			culture = culture:bobo
-			culture = culture:gur
 		}
 	}
 	mood = yes
@@ -488,9 +558,13 @@ rfhmm_mood_chyraa_khoor = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_mongolic }
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = language_mongolic
+				}
+			}
 			culture = culture:uriankhai
-			culture = culture:ongud
 		}
 	}
 	mood = yes
@@ -502,9 +576,13 @@ rfhmm_mood_dyngyldai = {
 	weight = 18
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_mongolic }
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = language_mongolic
+				}
+			}
 			culture = culture:uriankhai
-			culture = culture:ongud
 		}
 	}
 	mood = yes
@@ -516,9 +594,13 @@ rfhmm_mood_kongurri = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_mongolic }
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = language_mongolic
+				}
+			}
 			culture = culture:uriankhai
-			culture = culture:ongud
 		}
 	}
 	mood = yes
@@ -530,9 +612,13 @@ rfhmm_mood_samagaldai = {
 	weight = 16
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_mongolic }
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = language_mongolic
+				}
+			}
 			culture = culture:uriankhai
-			culture = culture:ongud
 		}
 	}
 	mood = yes
@@ -544,9 +630,13 @@ rfhmm_mood_yrlaazhyly = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_mongolic }
+			culture = { 
+				OR = {
+					has_cultural_pillar = heritage_mongolic
+					has_cultural_pillar = language_mongolic
+				}
+			}
 			culture = culture:uriankhai
-			culture = culture:ongud
 		}
 	}
 	mood = yes
@@ -559,9 +649,17 @@ rfhmm_mood_haratanaya_sree = {
 	music = "file:/sound/rfhmm_music/Haratanaya_Sree.ogg"
 	weight = 16
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_indo_aryan }
-			culture = { has_cultural_pillar = heritage_dravidian }
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_indo_aryan
+				has_cultural_pillar = heritage_dravidian
+				# (Nominally) Secular South Indian song so if heritage doesn't match, only match to South Indian languages
+				has_cultural_pillar = language_tamil
+				has_cultural_pillar = language_telugu
+				has_cultural_pillar = language_kannada
+				has_cultural_pillar = language_marathi
+				has_cultural_pillar = language_sinhalese
+			}
 		}
 	}
 	mood = yes
@@ -572,9 +670,18 @@ rfhmm_mood_mahadeva_sankarabharanam = {
 	music = "file:/sound/rfhmm_music/Mahadeva_(Sankarabharanam).ogg"
 	weight = 10
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_indo_aryan }
-			culture = { has_cultural_pillar = heritage_dravidian }
+		religion = religion:hinduism_religion
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_indo_aryan
+				has_cultural_pillar = heritage_dravidian
+				# (Nominally) Secular South Indian song so if heritage doesn't match, only match to South Indian languages
+				has_cultural_pillar = language_tamil
+				has_cultural_pillar = language_telugu
+				has_cultural_pillar = language_kannada
+				has_cultural_pillar = language_marathi
+				has_cultural_pillar = language_sinhalese
+			}
 		}
 	}
 	mood = yes
@@ -585,9 +692,17 @@ rfhmm_mood_unnaiye_nambinen_hindolam = {
 	music = "file:/sound/rfhmm_music/Unnaiye_Nambinen_(Hindolam).ogg"
 	weight = 11
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_indo_aryan }
-			culture = { has_cultural_pillar = heritage_dravidian }
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_indo_aryan
+				has_cultural_pillar = heritage_dravidian
+				# (Nominally) Secular South Indian song so if heritage doesn't match, only match to South Indian languages
+				has_cultural_pillar = language_tamil
+				has_cultural_pillar = language_telugu
+				has_cultural_pillar = language_kannada
+				has_cultural_pillar = language_marathi
+				has_cultural_pillar = language_sinhalese
+			}
 		}
 	}
 	mood = yes
@@ -598,9 +713,23 @@ rfhmm_mood_jaya_mangala_gatha = {
 	music = "file:/sound/rfhmm_music/Jaya_Mangala_Gatha.ogg"
 	weight = 11
 	is_valid = {
-		OR = {
-			culture = { has_cultural_pillar = heritage_indo_aryan }
-			culture = { has_cultural_pillar = heritage_dravidian }
+		religion = religion:buddhism_religion
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_indo_aryan
+				has_cultural_pillar = heritage_dravidian
+				has_cultural_pillar = language_tamil
+				has_cultural_pillar = language_telugu
+				has_cultural_pillar = language_kannada
+				has_cultural_pillar = language_magadhan
+				has_cultural_pillar = language_sauraseni
+				has_cultural_pillar = language_rajasthani
+				has_cultural_pillar = language_vrachada
+				has_cultural_pillar = language_marathi
+				has_cultural_pillar = language_kashmiri
+				has_cultural_pillar = language_sinhalese
+				has_cultural_pillar = language_pahari
+			}
 		}
 	}
 	mood = yes
@@ -614,13 +743,15 @@ rfhmm_mood_fidayda = {
 	weight = 18
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -636,13 +767,15 @@ rfhmm_mood_gushe_cheman = {
 	weight = 14
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -668,13 +801,15 @@ rfhmm_mood_lesgi = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -700,13 +835,15 @@ rfhmm_mood_shab_ayum = {
 	weight = 13
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -722,13 +859,15 @@ rfhmm_mood_sheydaii = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -744,13 +883,15 @@ rfhmm_mood_mosaic = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -766,13 +907,15 @@ rfhmm_mood_sandstorm = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -788,13 +931,15 @@ rfhmm_mood_supplication = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
@@ -810,13 +955,15 @@ rfhmm_mood_tabasum = {
 	weight = 15
 	is_valid = {
 		OR = {
-			culture = { has_cultural_pillar = heritage_iranian }
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_iranian
+					has_cultural_pillar = heritage_tocharian
+				}
+			}
 			AND = {
 				culture = { has_cultural_pillar = heritage_arabic }
-				NOR = {
-					culture = culture:maghrebi
-					culture = culture:andalusian
-				}
+				NOT = { culture = culture:maghrebi }
 			}
 			culture = culture:turkish
 			culture = culture:karluk
