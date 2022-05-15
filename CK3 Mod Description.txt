@@ -1,4 +1,4 @@
-The Royalty-Free Historical Music Mod adds 37 different, historically appropriate music tracks to Crusader Kings III, all of which are royalty-free and appropriately licensed. This means that not only is this mod Ironman-compatible, but it is also safe for use in footage in YouTube, Twitch, and other online video platforms.
+The Royalty-Free Historical Music Mod adds 41 different, historically appropriate music tracks to Crusader Kings III, all of which are royalty-free and appropriately licensed. This means that not only is this mod Ironman-compatible, but it is also safe for use in footage in YouTube, Twitch, and other online video platforms.
 
 In addition to being royalty-free, all the tracks in this mod are real performances of actual, real songs that are either from this timeperiod or are of a style that has not changed since. None of those fake-sounding, "cinematic" tracks here, everything is authentic: from duet studio performances of songs written by 15th century Flemish composers to Deccan temple dance songs dedicated to various Hindu deities, from Tuvans throat-singing traditional folk songs to Orthodox chants sung by the choir of the Vatopaidi monastery on Mt. Athos in Greece.
 
@@ -12,7 +12,7 @@ In its current version, the mod musical tracks from the following backgrounds:
 - 1 song of a style from modern-day Ghana.
 - 5 songs from the region of Tuva, in modern-day Russia near modern-day Mongolia.
 - 4 songs from India, out of which 1 is of a Northern Indian style and 3 are of Southern Indian styles.
-- 7 songs from the Middle East, out of which 2 are from modern-day Turkey specifically and the rest are from places in and around modern-day Turkey, Iran, Iraq, Syria, Uzbekistan, and Afghanistan.
+- 11 songs from the Middle East, out of which 2 are from modern-day Turkey specifically and the rest are from places in and around modern-day Turkey, Iran, Iraq, Syria, Uzbekistan, and Afghanistan.
 
 A full track list can be found in the LICENSE file inside the folder containing this mod's music, as well as full licensing information for every song and sources where you can double-check that the licensing information is correct.
 
